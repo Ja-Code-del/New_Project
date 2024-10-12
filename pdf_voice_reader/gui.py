@@ -25,7 +25,8 @@ class PDFApp(QWidget):
                 padding: 10px 20px;
             }
             QPushButton:hover {
-                background-color: #AA86FC;
+                background-color: #FFFA46;
+                color: #000000;
             }
         """)
 
