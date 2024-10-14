@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d38776c4-0b90-43f6-880a-8f78011ec307" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/20ProgramsOfPython.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automate_xlsxFiles_combination/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automate_xlsxFiles_combination/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_manager/task.py" afterDir="false" />
+    <list default="true" id="d38776c4-0b90-43f6-880a-8f78011ec307" name="Changes" comment="Change on principal button">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf_voice_reader/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_voice_reader/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf_voice_reader/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_voice_reader/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +22,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ja-Code-del&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ja-Code-del/New_Project&quot;,
+    &quot;accountId&quot;: &quot;64d15a15-a1cb-470c-ada0-f04b4c897d5d&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -46,11 +54,18 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pdf_voice_reader" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,6 +82,48 @@
       <option name="presentableId" value="Default" />
       <updated>1725919227139</updated>
     </task>
+    <task id="LOCAL-00001" summary="FIRST COMMIT">
+      <option name="closed" value="true" />
+      <created>1728650864815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728650864815</updated>
+    </task>
+    <task id="LOCAL-00002" summary="many works but more work on the gui. seems to look like something great">
+      <option name="closed" value="true" />
+      <created>1728696824390</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728696824390</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Change on principal button">
+      <option name="closed" value="true" />
+      <created>1728697797363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728697797363</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FIRST COMMIT" />
+    <MESSAGE value="many works but more work on the gui. seems to look like something great" />
+    <MESSAGE value="Change on principal button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change on principal button" />
   </component>
 </project>

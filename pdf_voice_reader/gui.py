@@ -9,14 +9,14 @@ class PDFApp(QWidget):
         super().__init__()
 
         self.setWindowTitle('PDF VOCAL READER')
-        self.setGeometry(100, 100, 500, 300)
+        self.setGeometry(100, 100, 640, 480)
 
         # Style global
         self.setStyleSheet("""
             QWidget {
                 background-color: #121212;
                 color: #E0E0E0;
-                margin: 25px;
+                margin-bottom: 12px;
             }
             QPushButton {
                 background-color: #BB86FC;
@@ -34,7 +34,7 @@ class PDFApp(QWidget):
 
         # Titre
         title = QLabel('PDF CONVERTER TO AUDIO')
-        title.setFont(QFont('Helvetica', 18, QFont.Weight.Bold))
+        title.setFont(QFont('Helvetica', 32, QFont.Weight.Bold))
         title.setAlignment(Qt.AlignmentFlag.AlignLeft)
         layout.addWidget(title)
 
@@ -46,7 +46,7 @@ class PDFApp(QWidget):
 
         # Pour les historiques
         self.under_title = QLabel('HISTORIC')
-        self.under_title.setFont(QFont('Helvetica', 16, QFont.Weight.Bold))
+        self.under_title.setFont(QFont('Helvetica', 20, QFont.Weight.Bold))
         self.under_title.setAlignment(Qt.AlignmentFlag.AlignLeft)
 
         self.inner_widget = QWidget()

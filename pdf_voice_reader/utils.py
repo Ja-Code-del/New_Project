@@ -1,9 +1,17 @@
 #EXTRACT THE TEXT FROM PDF FILE
 #libraries
 import PyPDF2
+from docx import Document
 from gtts import gTTS
 import os
 import shutil
+
+
+#Use this function to create another button to convert texts to doc file too
+def conv_to_docx(text):
+    document = Document()
+    document.add_paragraph(text)
+    document.save("new.docx")
 
 
 def extract_text_of(pdf_path):
@@ -12,6 +20,7 @@ def extract_text_of(pdf_path):
         text = ''
         for page in reader.pages:
             text += page.extract_text()
+        conv_to_docx(text)
     return text
 
 
